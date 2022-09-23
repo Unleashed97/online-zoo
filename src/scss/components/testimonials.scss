@@ -1,0 +1,86 @@
+.testimonials {
+    &__slider {
+        display: flex;
+        gap: 30px;
+
+        margin-bottom: 60px;
+    }
+
+    &__card {
+        position: relative;
+        width: 268px;
+        height: 391px;
+        padding: 15px 16px 19px;
+
+        background-color: $gray-light;
+        border-radius: 20px;
+        border: 2px solid transparent;
+        background-clip: padding-box;
+
+        &::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+
+            margin: -2px;
+
+            background: $pink-grad;
+            border-radius: 20px;
+        }
+    }
+
+    &__info {
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+
+        margin-bottom: 10px;
+    }
+
+    &__image {
+        width: 37px;
+        height: 37px;
+
+        border-radius: 50%;
+    }
+
+    &__info-data {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    &__additional-info {
+        font-size: 15px;
+        font-weight: 300;
+        color: #bdbdbd;
+    }
+
+    &__text {
+        color: $gray;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.2;
+
+        max-height: 85%;
+
+        overflow: auto;
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+    }
+}
