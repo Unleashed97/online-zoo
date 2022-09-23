@@ -1,0 +1,67 @@
+.animals {
+    position: relative;
+    &__decor {
+        position: absolute;
+        bottom: 0;
+
+        &--1 {
+            left: 0;
+        }
+
+        &--2 {
+            right: 0;
+        }
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 40px 0 100px;
+    }
+
+    &__slider {
+        position: relative;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 30px;
+
+        margin-bottom: 80px;
+    }
+
+    &__slider-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+
+        width: 62px;
+        height: 62px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: $orange;
+        border-radius: 50%;
+
+        cursor: pointer;
+
+        img {
+            width: 16px;
+        }
+
+        &--previous {
+            left: -82px;
+        }
+
+        &--next {
+            right: -82px;
+            img {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}

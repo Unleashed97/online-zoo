@@ -10,24 +10,24 @@
 
     cursor: pointer;
 
+    transition: background-color 0.3s linear;
+
+    &:hover {
+        background: $hover;
+    }
+
+    &.active {
+        background: $active;
+    }
+
+    &:disabled {
+        background: $disabled;
+    }
+
     &--fill {
         width: 298px;
         background: $orange;
         border-radius: 25px;
         padding: 16px 1px;
-
-        transition: background-color 0.3s linear;
-
-        &:hover {
-            background: $hover;
-        }
-
-        &.active {
-            background: $active;
-        }
-
-        &:disabled {
-            background: $disabled;
-        }
     }
 }
