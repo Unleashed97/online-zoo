@@ -70,17 +70,5 @@
         max-height: 85%;
 
         overflow: auto;
-
-        ::-webkit-scrollbar {
-            width: 5px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: transparent;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: #888;
-        }
     }
 }
