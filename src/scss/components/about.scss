@@ -1,0 +1,15 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__subtitle {
+        margin-top: 54px;
+        margin-bottom: 34px;
+    }
+}
