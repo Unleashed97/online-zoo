@@ -1,0 +1,27 @@
+.nav {
+    &__list {
+        display: flex;
+        gap: 0 58px;
+
+        list-style: none;
+    }
+
+    &__item {
+        font-weight: 500;
+        font-size: 16px;
+
+        color: #fff;
+
+        transition: color 0.3s linear;
+
+        &.active,
+        &:hover {
+            color: $orange;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: inherit;
+    }
+}
