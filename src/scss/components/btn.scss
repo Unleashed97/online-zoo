@@ -1,0 +1,33 @@
+.btn {
+    font-family: $family;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+
+    background: none;
+    border: 0;
+
+    cursor: pointer;
+
+    &--fill {
+        width: 298px;
+        background: $orange;
+        border-radius: 25px;
+        padding: 16px 1px;
+
+        transition: background-color 0.3s linear;
+
+        &:hover {
+            background: $hover;
+        }
+
+        &.active {
+            background: $active;
+        }
+
+        &:disabled {
+            background: $disabled;
+        }
+    }
+}

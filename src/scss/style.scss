@@ -17,8 +17,15 @@ body {
     font-family: $family;
 }
 
+p {
+    margin: 0;
+}
+
 // components
 @import 'components/header.scss';
 @import 'components/footer.scss';
 @import 'components/container.scss';
 @import 'components/nav.scss';
+@import 'components/section.scss';
+@import 'components/btn.scss';
+@import 'components/banner.scss';

@@ -1,6 +1,6 @@
 // colors
 $green: #4b9200;
-$orange: #f9804b;
+$orange: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
 $yellow: #ffee2e;
 $red: #d31414;
 $black-blue: #333b41;
@@ -8,6 +8,9 @@ $gray: #767474;
 $gray-smoky: #ababab;
 $gray-light: #f1f3f2;
 $white: #fdfdff;
+$hover: #e47209;
+$active: $green;
+$disabled: $gray;
 
 // gradients
 $orange-grad: linear-gradient(

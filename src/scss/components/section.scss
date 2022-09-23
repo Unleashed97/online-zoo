@@ -1,0 +1,11 @@
+.section {
+    &--banner {
+        min-height: 72vh;
+        background: url('../../img/banner/banner-bg.jpg') no-repeat center /
+            cover;
+    }
+
+    &__inner {
+        display: flex;
+    }
+}
