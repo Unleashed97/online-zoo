@@ -1,0 +1,89 @@
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__text {
+        margin-bottom: 60px;
+    }
+
+    &__illustration {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    &__illustration-title {
+        color: $black-blue;
+        font-size: 36px;
+        line-height: 1.3;
+
+        margin: 0 auto 40px;
+    }
+
+    &__illustration-content {
+        display: flex;
+        gap: 130px;
+    }
+
+    &__figure {
+        width: 168px;
+        margin: 0;
+
+        &:last-child .feed__figure-image::after {
+            display: none;
+        }
+    }
+
+    &__figure-image {
+        position: relative;
+        z-index: 1;
+
+        width: 100%;
+        height: 168px;
+
+        margin-bottom: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        object-fit: contain;
+
+        background-color: #fff;
+        border-radius: 5px;
+        border: 1px solid transparent;
+        background-clip: padding-box;
+
+        // &::before {
+        //     content: '';
+        //     position: absolute;
+        //     inset: 0;
+        //     z-index: -1;
+
+        //     margin: -1px;
+
+        //     background: $orange;
+        //     border-radius: 5px;
+        // }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -100px;
+
+            display: block;
+            width: 69px;
+            height: 35px;
+
+            background: url('../../img/icons/arrow-feed.png') no-repeat center /
+                contain;
+        }
+    }
+
+    &__figcaption {
+        font-size: 16px;
+    }
+}

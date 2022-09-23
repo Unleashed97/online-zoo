@@ -10,6 +10,36 @@
         background: url('../../img/about/about-bg.png') no-repeat right/ contain;
     }
 
+    &--feed {
+        background: $orange-grad;
+        padding: 69px 0 100px;
+
+        .section__inner {
+            flex-direction: column;
+
+            padding: 41px 99px 59px;
+
+            background: $white;
+
+            border-radius: 20px;
+
+            color: $black-blue;
+        }
+
+        .section__title {
+            color: #fe9013;
+            margin: 0 auto 30px;
+        }
+
+        .section__subtitle {
+            margin-bottom: 40px;
+        }
+
+        .section__text:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
     &__inner {
         display: flex;
         color: $black-blue;
@@ -19,6 +49,11 @@
         font-size: 48px;
         line-height: 1.2;
         font-weight: 400;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
     }
 
     &__subtitle {
