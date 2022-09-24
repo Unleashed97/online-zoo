@@ -1,13 +1,12 @@
 .section {
     &--banner {
         min-height: 72vh;
-        background: url('../../img/banner/banner-bg.jpg') no-repeat center /
-            cover;
+        background: url('../img/banner/banner-bg.jpg') no-repeat center / cover;
     }
 
     &--about {
         padding: 140px 0;
-        background: url('../../img/about/about-bg.png') no-repeat right/ contain;
+        background: url('../img/about/about-bg.png') no-repeat right/ contain;
     }
 
     &--feed {

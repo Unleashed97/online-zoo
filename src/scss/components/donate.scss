@@ -1,7 +1,7 @@
 .donate-banner {
     min-height: 390px;
 
-    background: url('../../img/donate/panda-bg.jpg') no-repeat center / cover;
+    background: url('../img/donate/panda-bg.jpg') no-repeat center / cover;
 }
 
 .donate {
@@ -78,7 +78,7 @@
         font-size: 16px;
         color: #929699;
 
-        background: url('../../img/icons/dollar-icon-default.png') no-repeat;
+        background: url('../img/icons/dollar-icon-default.png') no-repeat;
         background-position-x: calc(100% - 10px);
         background-position-y: center;
 
@@ -102,14 +102,14 @@
             color: $green;
             border-color: $green;
 
-            background-image: url('../../img/icons/dollar-icon-green.png');
+            background-image: url('../img/icons/dollar-icon-green.png');
         }
 
         &:invalid {
             color: $red;
             border-color: $red;
 
-            background-image: url('../../img/icons/dollar-icon-red.png');
+            background-image: url('../img/icons/dollar-icon-red.png');
         }
     }
 
