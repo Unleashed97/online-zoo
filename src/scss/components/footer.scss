@@ -1,2 +1,39 @@
 .footer {
+    background-color: #111115;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        padding: 41px 0 50px;
+
+        color: #fff;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 36px;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__socials {
+        margin-top: 44px;
+    }
+
+    &__copyright {
+        display: flex;
+        flex-direction: column;
+
+        font-weight: 300;
+
+        color: gray;
+
+        p + p {
+            margin-top: 10px;
+        }
+    }
 }

@@ -1,0 +1,42 @@
+.socials {
+    &__list {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+    }
+
+    &__link {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: inherit;
+        text-decoration: none;
+
+        transition: color 0.3s linear;
+
+        &.active {
+            color: $green;
+        }
+    }
+
+    &__image {
+        width: 26px;
+        height: 26px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: rgba(#c4c4c4, 50%);
+        border-radius: 50%;
+    }
+}
