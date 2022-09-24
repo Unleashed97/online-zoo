@@ -63,6 +63,16 @@
         }
     }
 
+    &--donate {
+        .section__content {
+            flex-direction: column;
+            align-items: center;
+        }
+        .section__subtitle {
+            margin-bottom: 0;
+        }
+    }
+
     &__inner {
         display: flex;
         color: $black-blue;
