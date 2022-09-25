@@ -16,7 +16,7 @@
     &__body {
         width: 100%;
         height: 27px;
-        padding: 0 16px;
+        padding: 0 26px;
 
         display: flex;
         justify-content: center;
@@ -35,7 +35,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: calc(100% / 7);
+        gap: calc(100% / 8);
     }
 
     &__dot {
@@ -79,7 +79,7 @@
         &::after {
             position: absolute;
             bottom: -60px;
-            left: -20px;
+            left: -30px;
             z-index: 1;
 
             font-size: 26px;
@@ -91,24 +91,27 @@
         }
 
         &--1::after {
-            content: '$2000';
+            content: '$5000';
         }
         &--2::after {
-            content: '$1000';
+            content: '$2000';
         }
         &--3::after {
-            content: '$500';
+            content: '$1000';
         }
         &--4::after {
-            content: '$250';
+            content: '$500';
         }
         &--5::after {
-            content: '$100';
+            content: '$250';
         }
         &--6::after {
-            content: '$50';
+            content: '$100';
         }
         &--7::after {
+            content: '$50';
+        }
+        &--8::after {
             content: '$25';
         }
     }

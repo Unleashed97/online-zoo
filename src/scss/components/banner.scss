@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
 
-    padding: 80px 0 100px 100px;
+    padding: 86px 0 100px 100px;
     margin-left: auto;
 
     &__text {
@@ -17,8 +17,8 @@
         font-family: $family;
         color: #fff;
         font-weight: 700;
-        font-size: 106px;
-        line-height: 0.72;
+        font-size: 106.5px;
+        line-height: 0.75;
         text-transform: uppercase;
         text-align: center;
 
@@ -30,8 +30,8 @@
             content: '';
 
             position: absolute;
-            top: -75px;
-            left: -75px;
+            top: -72px;
+            left: -72px;
             z-index: -1;
 
             display: block;
