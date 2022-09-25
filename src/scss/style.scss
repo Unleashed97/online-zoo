@@ -31,6 +31,16 @@ h6 {
     font-weight: 500 !important;
 }
 
+.seotag {
+    position: absolute;
+    opacity: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 // components
 @import 'components/header.scss';
 @import 'components/footer.scss';

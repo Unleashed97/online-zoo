@@ -1,5 +1,7 @@
 import * as customFunctions from './modules/functions.js'
 
+customFunctions.handleFooterFormSubmit()
+
 // vendors
 // swiper slider
 import Swiper, { Pagination } from 'swiper'
