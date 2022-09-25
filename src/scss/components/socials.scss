@@ -23,8 +23,14 @@
 
         transition: color 0.3s linear;
 
-        &.active {
+        &:active,
+        &.active,
+        &:hover {
             color: $green;
+
+            .socials__image {
+                background-color: $green;
+            }
         }
     }
 
@@ -38,5 +44,7 @@
 
         background-color: rgba(#c4c4c4, 50%);
         border-radius: 50%;
+
+        transition: background-color 0.3s linear;
     }
 }
