@@ -20,6 +20,10 @@
         &:hover {
             color: orange;
         }
+
+        &.active:hover {
+            color: #fff;
+        }
     }
 
     &__link {
