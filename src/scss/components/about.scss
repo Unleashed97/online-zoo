@@ -4,6 +4,14 @@
     align-items: center;
     gap: 87px;
 
+    &__image {
+        display: block;
+    }
+
+    &__text-block {
+        max-height: 403px;
+    }
+
     &__title {
         margin-bottom: 20px;
     }
