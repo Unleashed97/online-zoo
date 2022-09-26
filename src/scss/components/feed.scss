@@ -51,6 +51,10 @@
         &:last-child .feed__figure-image::after {
             display: none;
         }
+
+        &:first-child::after {
+            top: 61px;
+        }
     }
 
     &__figure-image {
@@ -87,8 +91,7 @@
         &::after {
             content: '';
             position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
+            top: 57px;
             right: -100px;
 
             display: block;
