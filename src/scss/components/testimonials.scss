@@ -3,6 +3,7 @@
         position: relative;
         margin-bottom: 58px;
     }
+
     &__card {
         position: relative;
         width: 268px;
@@ -13,20 +14,6 @@
         border-radius: 20px;
         border: 2px solid transparent;
         background-clip: padding-box;
-
-        // ::-webkit-scrollbar {
-        //     width: 5px;
-        //     border-radius: 5px;
-        // }
-
-        // ::-webkit-scrollbar-track {
-        //     background-color: $gray-smoky;
-        // }
-
-        // ::-webkit-scrollbar-thumb {
-        //     background-color: #fe9013;
-        //     border-radius: 5px;
-        // }
 
         &::before {
             content: '';
@@ -82,7 +69,5 @@
         p {
             width: 100%;
         }
-
-        // overflow: hidden;
     }
 }
