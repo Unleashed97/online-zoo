@@ -1,4 +1,5 @@
 .donate-banner {
+    margin-top: 80px;
     min-height: 390px;
 
     background: url('../img/donate/panda-bg.jpg') no-repeat center / cover;
@@ -35,7 +36,8 @@
         align-items: center;
 
         margin-top: 60px;
-        margin-bottom: 48px;
+        margin-bottom: 52px;
+        margin-left: -10px;
     }
 
     &__amount-block-text {
@@ -43,7 +45,7 @@
         flex-direction: column;
         align-items: center;
         margin-right: 11px;
-        margin-top: 50px;
+        margin-top: 58px;
     }
 
     &__amount-block-number {
@@ -54,6 +56,10 @@
         line-height: 0.8;
 
         color: #000;
+    }
+
+    &__amount-block-x {
+        margin-top: 35px;
     }
 
     &__amount-block-caption {
@@ -129,12 +135,16 @@
     }
 
     &__label {
-        display: block;
         position: relative;
+
+        display: flex;
+        align-items: center;
         padding-left: 26px;
 
-        cursor: pointer;
         font-size: 16px;
+        line-height: 1.4;
+
+        cursor: pointer;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
