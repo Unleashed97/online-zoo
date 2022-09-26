@@ -36,6 +36,14 @@
 
         .section__text:not(:last-child) {
             margin-bottom: 10px;
+
+            &.strong {
+                position: absolute;
+            }
+        }
+
+        .section__text.last {
+            margin-top: 71px;
         }
     }
 
