@@ -1,4 +1,8 @@
 .subscribe {
+    @media (max-width: $lg) {
+        margin-right: 32px;
+    }
+
     &__title {
         margin-bottom: 14px;
     }

@@ -3,12 +3,22 @@
     z-index: 1;
 
     background-color: #111115;
+
+    @media (max-width: $lg) {
+        .container {
+            padding: 0;
+        }
+    }
     &__inner {
         display: flex;
         flex-direction: column;
         padding: 41px 0 50px;
 
         color: #fff;
+
+        @media (max-width: $lg) {
+            padding: 41px 18px 50px 43px;
+        }
     }
 
     &__top {
@@ -29,6 +39,10 @@
 
     &__nav {
         margin-left: 115px;
+
+        @media (max-width: $lg) {
+            margin-left: 94px;
+        }
     }
 
     &__copyright {

@@ -7,6 +7,11 @@
     padding: 166px 0 100px 100px;
     margin-left: auto;
 
+    @media (max-width: $lg) {
+        // margin-right - container padding(85.75px -30px)
+        padding: 122.8px 55.75px 47px 0;
+    }
+
     &__text {
         position: relative;
         z-index: 1;
@@ -21,6 +26,13 @@
         line-height: 0.75;
         text-transform: uppercase;
         text-align: center;
+
+        @media (max-width: $lg) {
+            max-width: 400px;
+
+            font-size: 85px;
+            margin-bottom: 40.2px;
+        }
 
         & span {
             color: $yellow;
@@ -41,6 +53,14 @@
 
             background: $orange;
             border-radius: 50%;
+
+            @media (max-width: $lg) {
+                top: -53.8px;
+                left: -58px;
+
+                width: 367px;
+                height: 367px;
+            }
         }
     }
 }

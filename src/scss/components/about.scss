@@ -4,12 +4,25 @@
     align-items: center;
     gap: 87px;
 
+    @media (max-width: $lg) {
+        gap: 31px;
+    }
+
     &__image {
         display: block;
+
+        @media (max-width: $lg) {
+            width: 455px;
+            height: 408px;
+        }
     }
 
     &__text-block {
         max-height: 403px;
+
+        @media (max-width: $lg) {
+            max-height: 427px;
+        }
     }
 
     &__title {

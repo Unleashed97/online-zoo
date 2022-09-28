@@ -13,6 +13,18 @@ const swiper = new Swiper('.swiper--testimonials ', {
     slidesPerView: 4,
     spaceBetween: 30,
 
+    breakpoints: {
+        1000: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+
+        1600: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+        },
+    },
+
     modules: [Pagination],
     // If we need pagination
     pagination: {

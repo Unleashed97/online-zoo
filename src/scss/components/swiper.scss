@@ -15,6 +15,11 @@
     border: 1px solid transparent !important;
     border-radius: 5px !important;
     background-clip: padding-box;
+
+    @media (max-width: $lg) {
+        width: 390px !important;
+        transform: translateX(calc(-50% - 7px));
+    }
 }
 
 .swiper-pagination-progressbar-fill {

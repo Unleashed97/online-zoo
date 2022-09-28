@@ -16,6 +16,11 @@
 
     overflow: hidden;
 
+    @media (max-width: $lg) {
+        width: 294px;
+        max-height: 354px;
+    }
+
     // &:before {
     //     content: '';
     //     position: absolute;

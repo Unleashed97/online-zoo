@@ -7,6 +7,10 @@
         margin-right: auto;
         margin-bottom: 60px;
 
+        @media (max-width: $lg) {
+            margin-bottom: 40px;
+        }
+
         a {
             position: relative;
             text-decoration: none;
@@ -29,6 +33,10 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 60px;
+
+        @media (max-width: $lg) {
+            margin-bottom: 70px;
+        }
     }
 
     &__illustration-title {
