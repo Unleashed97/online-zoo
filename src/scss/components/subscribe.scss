@@ -3,6 +3,10 @@
         margin-right: 32px;
     }
 
+    @media (max-width: $md) {
+        display: none;
+    }
+
     &__title {
         margin-bottom: 14px;
     }

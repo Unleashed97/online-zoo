@@ -19,7 +19,7 @@
                 <div class="section__inner">
                     <div class="banner">
                         <h2 class="banner__text">Watch your <span>favorite</span> animal online</h2>
-                        <button type="button" class="btn btn--fill">Wath online</button>
+                        <button type="button" class="btn btn--fill banner__btn">Wath online</button>
                     </div>
                 </div>
             </div>
@@ -60,12 +60,16 @@
         <!-- animals cards block -->
         <div class="animals">
             <picture>
-                <source srcset="img/animals/palm-lg.png">
+                <source srcset="img/animals/palm-sm.png" media="(max-width: 639px)">
+                <source srcset="img/animals/palm-md.png" media="(max-width: 640px)">
+                <source srcset="img/animals/palm-lg.png" media="(max-width: 1000px)">
 
                 <img src="img/animals/palm.png" alt="palm" class="animals__decor animals__decor--1">
             </picture>
             <picture>
-                <source srcset="img/animals/strelitzia-lg.png">
+                <source srcset="img/animals/strelitzia-sm.png" media="(max-width: 639px)">
+                <source srcset="img/animals/strelitzia-md.png" media="(max-width: 640px)">
+                <source srcset="img/animals/strelitzia-lg.png" media="(max-width: 1000px)">
 
                 <img src="img/animals/strelitzia.png" alt="strelitzia" class="animals__decor animals__decor--2">
             </picture>
@@ -74,12 +78,13 @@
                 <div class="animals__inner">
 
                     <div class="animals__slider">
-                        <article class="card">
+                        <article class="card card--1">
                             <div class="card__inner">
 
                             </div>
                             <div class="card__image">
                                 <picture>
+                                    <source srcset="img/animals/1/pandas-md.jpg" media="(max-width: 640px)">
                                     <source srcset="img/animals/1/pandas-lg.jpg" media="(max-width: 1000px)">
 
                                     <img src="img/animals/1/pandas.jpg" alt="pandas">
@@ -95,12 +100,13 @@
                                     alt=" crossed banana and bamboo icon shows the animal is herbivore">
                             </div>
                         </article>
-                        <article class="card">
+                        <article class="card card--2">
                             <div class="card__image">
                                 <picture>
+                                    <source srcset="img/animals/2/eagles-md.jpg" media="(max-width: 640px)">
                                     <source srcset="img/animals/2/eagles-lg.jpg" media="(max-width: 1000px)">
 
-                                    <img src="img/animals/eagles.jpg" class="card__image" alt="eagles">
+                                    <img src="img/animals/2/eagles.jpg" class="card__image" alt="eagles">
                                 </picture>
                             </div>
                             <div class="card__info">
@@ -112,12 +118,13 @@
                                     alt=" crossed banana and bamboo icon shows the animal is carnivore">
                             </div>
                         </article>
-                        <article class="card">
+                        <article class="card card--3">
                             <div class="card__image">
                                 <picture>
+                                    <source srcset="img/animals/3/gorillas-md.jpg" media="(max-width: 640px)">
                                     <source srcset="img/animals/3/cheetahs-lg.jpg" media="(max-width: 1000px)">
 
-                                    <img src="img/animals/gorillas.jpg" class="card__image" alt="gorillas">
+                                    <img src="img/animals/3/gorillas.jpg" class="card__image" alt="gorillas">
                                 </picture>
                             </div>
                             <div class="card__info">
@@ -129,12 +136,13 @@
                                     alt=" crossed banana and bamboo icon shows the animal is herbivore">
                             </div>
                         </article>
-                        <article class="card">
+                        <article class="card card--4">
                             <div class="card__image">
                                 <picture>
+                                    <source srcset="img/animals/4/alligators-md.jpg" media="(max-width: 640px)">
                                     <source srcset="img/animals/4/gorillas-lg.jpg" media="(max-width: 1000px)">
 
-                                    <img src="img/animals/sloths.jpg" class="card__image" alt="Two-toed sloths">
+                                    <img src="img/animals/4/sloths.jpg" class="card__image" alt="Two-toed sloths">
                                 </picture>
                             </div>
                             <div class="card__info">
@@ -146,12 +154,12 @@
                                     alt=" crossed banana and bamboo icon shows the animal is herbivore">
                             </div>
                         </article>
-                        <article class="card">
+                        <article class="card card--5">
                             <div class="card__image">
                                 <picture>
                                     <source srcset="img/animals/5/alligators-lg.jpg" media="(max-width: 1000px)">
 
-                                    <img src="img/animals/cheetahs.jpg" class="card__image" alt="cheetahs">
+                                    <img src="img/animals/5/cheetahs.jpg" class="card__image" alt="cheetahs">
                                 </picture>
                             </div>
                             <div class="card__info">
@@ -163,12 +171,12 @@
                                     alt=" crossed banana and bamboo icon shows the animal is carnivore">
                             </div>
                         </article>
-                        <article class="card">
+                        <article class="card card--6">
                             <div class="card__image">
                                 <picture>
                                     <source srcset="img/animals/6/penguins-lg.jpg" media="(max-width: 1000px)">
 
-                                    <img src="img/animals/penguins.jpg" class="card__image" alt="penguin">
+                                    <img src="img/animals/6/penguins.jpg" class="card__image" alt="penguin">
                                 </picture>
                             </div>
                             <div class="card__info">
@@ -264,7 +272,9 @@
         <!-- section testimonials -->
         <section class="section section--testimonials">
             <picture>
-                <source srcset="img/testimonials/leaf-lg.png">
+                <source srcset="img/testimonials/leaf-sm.png" media="(max-width: 639px)">
+                <source srcset="img/testimonials/leaf-md.png" media="(max-width: 999px)">
+                <source srcset="img/testimonials/leaf-lg.png" media="(max-width: 1599px)">
 
                 <img src="img/testimonials/leaf.png" class="decor" alt="leaf">
             </picture>

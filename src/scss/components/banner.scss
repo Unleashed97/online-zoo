@@ -12,6 +12,15 @@
         padding: 122.8px 55.75px 47px 0;
     }
 
+    @media (max-width: $md) {
+        padding: 82px 14.7px 0 0;
+    }
+
+    @media (max-width: $sm) {
+        // position: relative;
+        padding: 41px 10px 0 0;
+    }
+
     &__text {
         position: relative;
         z-index: 1;
@@ -32,6 +41,17 @@
 
             font-size: 85px;
             margin-bottom: 40.2px;
+        }
+
+        @media (max-width: $md) {
+            max-width: 255.6px;
+            font-size: 54.29px;
+        }
+
+        @media (max-width: $sm) {
+            max-width: 128px;
+
+            font-size: 28px;
         }
 
         & span {
@@ -61,6 +81,37 @@
                 width: 367px;
                 height: 367px;
             }
+
+            @media (max-width: $md) {
+                top: -37.81px;
+                left: -37.3px;
+
+                width: 237.6px;
+                height: 237.6px;
+            }
+
+            @media (max-width: $sm) {
+                top: -10px;
+                left: -10px;
+
+                width: 119px;
+                height: 119px;
+            }
+        }
+    }
+
+    .btn {
+        @media (max-width: $md) {
+            position: absolute;
+            left: 20px;
+            bottom: 40px;
+        }
+
+        @media (max-width: $sm) {
+            bottom: -63.4px;
+            left: 50%;
+
+            transform: translate(-50%);
         }
     }
 }

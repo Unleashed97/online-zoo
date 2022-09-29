@@ -3,7 +3,10 @@
         <div class="footer__inner">
             <div class="footer__top">
                 <a href="index.html" class="logo">
-                    <img src="img/logo/logo.png" alt="Logotype PetStory Online">
+                    <picture>
+                        <source srcset="img/logo/logo-sm.png" media="(max-width: 639px)">
+                        <img src="img/logo/logo.png" alt="Logotype PetStory Online">
+                    </picture>
                 </a>
 
                 <div class="subscribe">
@@ -15,7 +18,7 @@
                 </div>
             </div>
 
-            <a href="donate.html" class="btn btn--fill btn--round">donate for volunteers</a>
+            <a href="donate.html" class="btn btn--fill btn--round footer__btn">donate for volunteers</a>
 
             <div class="footer__bottom">
                 <div class="socials footer__socials">
@@ -25,7 +28,9 @@
                                 <span class="socials__image">
                                     <img src="img/socials/facebook.svg" class="socials__icon" alt="facebook icon">
                                 </span>
-                                Facebook
+                                <span class="socials__name">
+                                    Facebook
+                                </span>
                             </a>
                         </li>
                         <li class="socials__item">
@@ -33,7 +38,9 @@
                                 <span class="socials__image">
                                     <img src="img/socials/twitter.svg" class="socials__icon" alt="twitter icon">
                                 </span>
-                                Twitter
+                                <span class="socials__name">
+                                    Twitter
+                                </span>
                             </a>
                         </li>
                         <li class="socials__item">
@@ -41,7 +48,9 @@
                                 <span class="socials__image">
                                     <img src="img/socials/instagram.svg" class="socials__icon" alt="instagram icon">
                                 </span>
-                                Instagram
+                                <span class="socials__name">
+                                    Instagram
+                                </span>
                             </a>
                         </li>
                         <li class="socials__item">
@@ -49,13 +58,15 @@
                                 <span class="socials__image">
                                     <img src="img/socials/youtube.svg" class="socials__icon" alt="youtube icon">
                                 </span>
-                                YouTube
+                                <span class="socials__name">
+                                    YouTube
+                                </span>
                             </a>
                         </li>
                     </ul>
                 </div>
 
-                <nav class="nav footer__nav">
+                <nav class="nav nav--footer footer__nav">
                     <ul class="nav__list">
                         <li class="nav__item active">
                             <a href="index.html" class="nav__link">About</a>

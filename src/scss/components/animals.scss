@@ -23,6 +23,14 @@
         @media (max-width: $lg) {
             padding: 42px 0 140px;
         }
+
+        @media (max-width: $md) {
+            padding: 20px 0 100px;
+        }
+
+        @media (max-width: $sm) {
+            padding: 0 0 60px 0;
+        }
     }
 
     &__slider {
@@ -36,6 +44,19 @@
 
         @media (max-width: $lg) {
             gap: 92px 29px;
+        }
+
+        @media (max-width: $md) {
+            grid-template-columns: repeat(2, 1fr);
+
+            margin-bottom: 60px;
+        }
+
+        @media (max-width: $sm) {
+            grid-template-columns: 1fr;
+            gap: 20px;
+
+            margin-bottom: 20px;
         }
     }
 
@@ -57,16 +78,29 @@
 
         cursor: pointer;
 
+        @media (max-width: $sm) {
+            display: none;
+        }
+
         img {
             width: 16px;
         }
 
         &--previous {
             left: 323px;
+
+            @media (max-width: $md) {
+                left: 223px;
+            }
         }
 
         &--next {
             right: 323px;
+
+            @media (max-width: $md) {
+                right: 223px;
+            }
+
             img {
                 transform: rotate(180deg);
             }

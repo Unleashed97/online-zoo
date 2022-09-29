@@ -9,7 +9,9 @@
             padding: 0;
         }
     }
+
     &__inner {
+        position: relative;
         display: flex;
         flex-direction: column;
         padding: 41px 0 50px;
@@ -19,22 +21,75 @@
         @media (max-width: $lg) {
             padding: 41px 18px 50px 43px;
         }
+
+        @media (max-width: $md) {
+            padding: 12px 20px 12px 21px;
+        }
+
+        @media (max-width: $sm) {
+            padding: 20px 10px 20px 9px;
+        }
     }
 
     &__top {
         display: flex;
         justify-content: space-between;
         margin-bottom: 36px;
+
+        @media (max-width: $md) {
+            margin-bottom: 32px;
+        }
+
+        @media (max-width: $sm) {
+            justify-content: center;
+            margin-bottom: 86px;
+        }
+    }
+
+    &__btn {
+        @media (max-width: $md) {
+            margin-bottom: 67px;
+        }
+
+        @media (max-width: $sm) {
+            margin-bottom: 30px;
+        }
     }
 
     &__bottom {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
+
+        @media (max-width: $md) {
+            // position: absolute;
+            // bottom: 0;
+        }
+
+        @media (max-width: $sm) {
+            flex-direction: column-reverse;
+            gap: 30px;
+        }
     }
 
     &__socials {
         margin-top: 44px;
+
+        @media (max-width: $md) {
+            position: absolute;
+            top: 12px;
+            right: 20px;
+
+            margin-top: 0;
+        }
+
+        @media (max-width: $sm) {
+            top: 73px;
+            right: auto;
+            left: 50%;
+
+            transform: translate(-50%);
+        }
     }
 
     &__nav {
@@ -42,6 +97,10 @@
 
         @media (max-width: $lg) {
             margin-left: 94px;
+        }
+
+        @media (max-width: $md) {
+            margin-left: 0;
         }
     }
 
@@ -57,6 +116,10 @@
 
         p + p {
             margin-top: 10px;
+
+            @media (max-width: $sm) {
+                margin-top: 18px;
+            }
         }
     }
 }
