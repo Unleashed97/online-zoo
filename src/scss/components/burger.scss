@@ -18,6 +18,11 @@
         display: block;
     }
 
+    @media (max-width: $sm) {
+        top: 12px;
+        right: 10px;
+    }
+
     &__item {
         display: block;
         width: 100%;

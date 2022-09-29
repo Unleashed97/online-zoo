@@ -11,6 +11,12 @@
                 gap: 0 37px;
             }
         }
+
+        @media (max-width: $sm) {
+            .nav__list {
+                gap: 0 30px;
+            }
+        }
     }
 
     &__list {

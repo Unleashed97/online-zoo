@@ -81,7 +81,9 @@
 
         @media (max-width: $sm) {
             flex-direction: column;
-            gap: 20px;
+            gap: 29px;
+
+            left: 0;
         }
     }
 
@@ -95,6 +97,12 @@
 
         &:first-child::after {
             top: 61px;
+        }
+
+        @media (max-width: $sm) {
+            &:first-child {
+                margin-bottom: 13px;
+            }
         }
     }
 
@@ -156,11 +164,11 @@
             }
 
             @media (max-width: $sm) {
-                transform: rotate(90deg);
+                transform: rotate(85deg);
 
                 top: auto;
-                bottom: -56px;
-                right: -60px;
+                bottom: -66px;
+                right: -63px;
             }
         }
     }

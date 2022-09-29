@@ -35,7 +35,7 @@
         }
 
         @media (max-width: $sm) {
-            margin-bottom: 30px;
+            margin-bottom: 27px;
         }
     }
 
@@ -146,6 +146,24 @@
         @media (max-width: $sm) {
             width: 299px;
             height: 109px;
+
+            padding: 7px 29px 12px 12px;
+
+            &--1 {
+                .testimonials__info {
+                    gap: 6px;
+                }
+            }
+
+            &--5 {
+                padding-right: 15px;
+            }
+            &--6 {
+                padding-right: 0;
+                .testimonials__info {
+                    gap: 6px;
+                }
+            }
         }
 
         &::before {

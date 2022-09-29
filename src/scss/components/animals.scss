@@ -29,7 +29,7 @@
         }
 
         @media (max-width: $sm) {
-            padding: 0 0 60px 0;
+            padding: 0 14.7px 60px 0;
         }
     }
 
@@ -56,7 +56,7 @@
             grid-template-columns: 1fr;
             gap: 20px;
 
-            margin-bottom: 20px;
+            margin-bottom: 18px;
         }
     }
 
@@ -105,5 +105,10 @@
                 transform: rotate(180deg);
             }
         }
+    }
+
+    &__btn {
+        position: relative;
+        left: 6px;
     }
 }

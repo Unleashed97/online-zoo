@@ -40,10 +40,12 @@
         }
 
         @media (max-width: $sm) {
-            background: url('../img/about/about-bg-sm.png') no-repeat right/
-                contain;
+            background: url('../img/about/about-bg-sm.png') no-repeat;
 
-            padding: 104px 0 40px;
+            background-position-y: 38px;
+            background-position-x: right;
+
+            padding: 107px 0 40px;
         }
 
         .section__text:nth-of-type(1) {
@@ -225,6 +227,10 @@
 
             @media (max-width: $md) {
                 bottom: -70px;
+            }
+
+            @media (max-width: $sm) {
+                bottom: -30px;
             }
         }
     }
