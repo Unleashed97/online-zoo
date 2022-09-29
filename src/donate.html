@@ -9,7 +9,47 @@
 <body>
 
     <!-- header include -->
-    @@include('html/partials/header.html')
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo header__logo">
+                    <picture>
+                        <source srcset="img/logo/logo-md.png" media="(max-width: 641px)">
+                        <img src="img/logo/logo.png" alt="Logotype PetStory online">
+                    </picture>
+                </a>
+
+                <nav class="nav nav--header">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Map</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Zoos</a>
+                        </li>
+                        <li class="nav__item active">
+                            <a href="donate.html" class="nav__link">Donate</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
+                    class="header__designedby">Designed by ©</a>
+
+                <button type="button" class="burger">
+                    <span class="burger__item"></span>
+                    <span class="burger__item"></span>
+                    <span class="burger__item"></span>
+                </button>
+            </div>
+        </div>
+    </header>
 
     <main>
         <div class="donate-banner">
@@ -180,7 +220,7 @@
 
                     <nav class="nav nav--footer footer__nav">
                         <ul class="nav__list">
-                            <li class="nav__item active">
+                            <li class="nav__item">
                                 <a href="index.html" class="nav__link">About</a>
                             </li>
                             <li class="nav__item">

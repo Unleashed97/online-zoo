@@ -48,3 +48,9 @@ export const testimonialsTextSwap = () => {
         }
     })
 }
+
+export const handleNavClick = () => {
+    const nav = document.querySelectorAll('.nav')
+
+    console.log(nav)
+}
