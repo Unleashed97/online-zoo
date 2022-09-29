@@ -4,32 +4,3 @@ customFunctions.handleFooterFormSubmit()
 customFunctions.testimonialsTextSwap()
 
 // vendors
-// swiper slider
-import Swiper, { Pagination } from 'swiper'
-
-const swiper = new Swiper('.swiper--testimonials ', {
-    direction: 'horizontal',
-    loop: true,
-
-    slidesPerView: 4,
-    spaceBetween: 30,
-
-    breakpoints: {
-        1000: {
-            slidesPerView: 3,
-            spaceBetween: 30,
-        },
-
-        1600: {
-            slidesPerView: 4,
-            spaceBetween: 40,
-        },
-    },
-
-    modules: [Pagination],
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'progressbar',
-    },
-})

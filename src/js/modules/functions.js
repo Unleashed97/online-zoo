@@ -20,9 +20,7 @@ export const testimonialsTextSwap = () => {
 
         testimonial6.innerHTML =
             '<p>Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals. </p> <p> The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p>'
-    }
-
-    if (window.innerWidth <= 639) {
+    } else if (window.innerWidth <= 639) {
         testimonial5.innerHTML =
             '<p>My son delighted very much ljves to watch.... gouillas.The best online zoo I’ ve met.  Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p> <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals. </p>'
 
@@ -37,9 +35,7 @@ export const testimonialsTextSwap = () => {
 
             testimonial6.innerHTML =
                 '<p>Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals. </p> <p> The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p>'
-        }
-
-        if (window.innerWidth <= 639) {
+        } else if (window.innerWidth <= 639) {
             testimonial5.innerHTML =
                 '<p>My son delighted very much ljves to watch.... gouillas.The best online zoo I’ ve met.  Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p> <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals. </p>'
 
@@ -47,10 +43,4 @@ export const testimonialsTextSwap = () => {
                 '<p>Best online zoo I’ve met. My son delighted very much ljves to watch.... gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p> <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p>'
         }
     })
-}
-
-export const handleNavClick = () => {
-    const nav = document.querySelectorAll('.nav')
-
-    console.log(nav)
 }
