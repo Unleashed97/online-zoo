@@ -112,5 +112,9 @@
             max-height: 46.7px;
             padding: 6px 9px 11px 12.4px;
         }
+
+        @media (max-width: $smb) {
+            transform: translateY(0);
+        }
     }
 }
