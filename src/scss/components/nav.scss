@@ -10,6 +10,10 @@
             .nav__list {
                 gap: 0 37px;
             }
+
+            .nav__item {
+                font-weight: 400;
+            }
         }
 
         @media (max-width: $sm) {

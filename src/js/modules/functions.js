@@ -30,8 +30,6 @@ export const testimonialsTextSwap = () => {
             '<p>Best online zoo I’ve met. My son delighted very much ljves to watch.... gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p> <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love for animals.</p>'
     }
 
-    console.log(window.innerWidth)
-
     window.addEventListener('resize', () => {
         if (window.innerWidth <= 999) {
             testimonial5.innerHTML =

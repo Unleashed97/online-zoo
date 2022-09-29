@@ -3,12 +3,38 @@
     min-height: 390px;
 
     background: url('../img/donate/panda-bg.jpg') no-repeat center / cover;
+
+    @media (max-width: $lg) {
+        background: url('../img/donate/panda-bg-lg.jpg') no-repeat center /
+            cover;
+    }
+
+    @media (max-width: $md) {
+        margin-top: 34px;
+        min-height: 335px;
+        background: url('../img/donate/panda-bg-md.jpg') no-repeat center /
+            cover;
+    }
+
+    @media (max-width: $sm) {
+        min-height: 187px;
+        background: url('../img/donate/panda-bg-sm.jpg') no-repeat center /
+            cover;
+    }
 }
 
 .donate {
     &__text-block {
         color: #fff;
         margin-bottom: 60px;
+
+        @media (max-width: $lg) {
+            margin-bottom: 39px;
+        }
+
+        @media (max-width: $md) {
+            margin-bottom: 27px;
+        }
     }
 
     &__title {
@@ -18,9 +44,30 @@
         margin-bottom: 10px;
         font-weight: 400;
 
+        @media (max-width: $lg) {
+            max-width: 778px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: $md) {
+            font-size: 24px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
         &--orange {
             text-transform: none;
             color: #fe9013;
+
+            @media (max-width: $md) {
+                font-size: 36px;
+                line-height: 1.3;
+            }
+
+            @media (max-width: $sm) {
+                font-size: 24px;
+                line-height: 1.3;
+            }
         }
     }
 
@@ -28,6 +75,27 @@
         font-size: 16px;
         line-height: 1.4;
         margin-bottom: 43px;
+        font-weight: 500;
+
+        span {
+            font-weight: 400;
+            margin-right: 5px;
+        }
+
+        @media (max-width: $lg) {
+            margin-bottom: 46px;
+            br {
+                display: none;
+            }
+        }
+
+        @media (max-width: $md) {
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: $sm) {
+            margin-bottom: 25px;
+        }
     }
 
     &__amount-block {
@@ -38,6 +106,21 @@
         margin-top: 60px;
         margin-bottom: 52px;
         margin-left: -10px;
+
+        @media (max-width: $md) {
+            margin-top: 50px;
+            margin-left: -15px;
+            margin-bottom: 45px;
+        }
+
+        @media (max-width: $sm) {
+            width: 100%;
+            margin-top: 0;
+            margin-left: 0;
+            margin-bottom: 6px;
+
+            justify-content: space-between;
+        }
     }
 
     &__amount-block-text {
@@ -46,6 +129,11 @@
         align-items: center;
         margin-right: 11px;
         margin-top: 58px;
+
+        @media (max-width: $sm) {
+            margin-right: 6px;
+            margin-top: 33px;
+        }
     }
 
     &__amount-block-number {
@@ -56,18 +144,37 @@
         line-height: 0.8;
 
         color: #000;
+
+        @media (max-width: $sm) {
+            margin-bottom: 8px;
+            font-size: 40.6px;
+        }
     }
 
     &__amount-block-x {
         margin-top: 35px;
+
+        @media (max-width: $sm) {
+            margin-top: 18px;
+            margin-right: 34px;
+        }
     }
 
     &__amount-block-caption {
         font-size: 16px;
+
+        @media (max-width: $sm) {
+            font-size: 9px;
+            line-height: 1.4;
+        }
     }
 
     &__amount-block-image {
         margin-left: 64px;
+
+        @media (max-width: $sm) {
+            margin-left: 0;
+        }
     }
 
     &__progressbar {
@@ -98,6 +205,17 @@
         ::-webkit-inner-spin-button {
             -webkit-appearance: none;
             margin: 0;
+        }
+
+        @media (max-width: $md) {
+            width: 180px;
+            height: 42px;
+
+            padding-left: 5px;
+        }
+
+        @media (max-width: $sm) {
+            margin-bottom: 25px;
         }
 
         &[type='number'] {
@@ -133,6 +251,20 @@
         display: flex;
         justify-content: center;
         gap: 50px;
+
+        @media (max-width: $lg) {
+            margin-left: -17px;
+            margin-top: 4px;
+            margin-bottom: 27px;
+        }
+
+        @media (max-width: $md) {
+            margin-top: 7px;
+        }
+
+        @media (max-width: $sm) {
+            margin-top: 0;
+        }
     }
 
     &__label {
@@ -178,5 +310,19 @@
 
     &__submit {
         margin-bottom: 30px;
+
+        @media (max-width: $lg) {
+            margin-left: 4px;
+        }
+
+        @media (max-width: $sm) {
+            margin-left: 0;
+        }
+    }
+
+    &__share {
+        display: block !important;
+        position: relative;
+        width: 301px;
     }
 }

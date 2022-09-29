@@ -7,11 +7,29 @@
 
     margin-bottom: 98px;
 
+    @media (max-width: $lg) {
+        max-width: 810px;
+    }
+
+    @media (max-width: $sm) {
+        margin-bottom: 49px;
+    }
+
     &__caption {
         font-size: 16px;
         color: #000;
         margin-left: 5px;
         margin-bottom: 17px;
+
+        @media (max-width: $md) {
+            margin-left: 10px;
+            margin-bottom: 7px;
+        }
+
+        @media (max-width: $sm) {
+            margin-left: 0;
+            margin-bottom: 10px;
+        }
     }
 
     &__body {
@@ -25,6 +43,19 @@
 
         background-color: #404950;
         border-radius: 2px;
+
+        @media (max-width: $lg) {
+            padding: 0 11px;
+        }
+
+        @media (max-width: $md) {
+            padding: 0 35px;
+        }
+
+        @media (max-width: $sm) {
+            height: 13.5px;
+            padding: 0 17.5px;
+        }
     }
 
     &__track {
@@ -37,6 +68,14 @@
         justify-content: space-between;
         align-items: center;
         gap: calc(100% / 8);
+
+        @media (max-width: $lg) {
+            gap: calc(100% / 7);
+        }
+
+        @media (max-width: $md) {
+            gap: calc(100% / 5);
+        }
     }
 
     &__dot {
@@ -49,13 +88,37 @@
 
         cursor: pointer;
 
+        @media (max-width: $sm) {
+            width: 5px;
+            height: 5px;
+        }
+
+        &--1 {
+            @media (max-width: $lg) {
+                display: none;
+            }
+        }
+
+        &--2 {
+            @media (max-width: $md) {
+                display: none;
+            }
+        }
+
+        &--3 {
+            @media (max-width: $md) {
+                display: none;
+            }
+        }
+
         &:hover::before,
         &:active::before,
         &.active::before {
             opacity: 1;
         }
 
-        &:hover::after {
+        &:hover::after,
+        &.active::after {
             color: #fe9013;
         }
 
@@ -75,6 +138,13 @@
             opacity: 0;
 
             transition: opacity 0.3s linear;
+
+            @media (max-width: $sm) {
+                width: 20px;
+                height: 20px;
+
+                background: url('../img/icons/roller-icon-sm.png') no-repeat;
+            }
         }
 
         &::after {
@@ -89,6 +159,22 @@
             color: $black-blue;
 
             transition: color 0.3s linear;
+
+            @media (max-width: $lg) {
+                bottom: -58px;
+                left: -12px;
+            }
+
+            @media (max-width: $md) {
+                left: -20px;
+            }
+
+            @media (max-width: $sm) {
+                font-size: 13px;
+
+                bottom: -30px;
+                left: -10px;
+            }
         }
 
         &--1::after {

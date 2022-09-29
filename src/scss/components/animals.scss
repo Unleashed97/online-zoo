@@ -87,7 +87,11 @@
         }
 
         &--previous {
-            left: 323px;
+            left: -82px;
+
+            @media (max-width: $lg) {
+                left: 323px;
+            }
 
             @media (max-width: $md) {
                 left: 223px;
@@ -95,7 +99,11 @@
         }
 
         &--next {
-            right: 323px;
+            right: -82px;
+
+            @media (max-width: $lg) {
+                right: 323px;
+            }
 
             @media (max-width: $md) {
                 right: 223px;
@@ -109,6 +117,9 @@
 
     &__btn {
         position: relative;
-        left: 6px;
+
+        @media (max-width: $sm) {
+            left: 6px;
+        }
     }
 }

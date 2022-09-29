@@ -179,7 +179,7 @@
             padding: 140px 0 180px;
 
             @media (max-width: $lg) {
-                padding: 100px 0 140px;
+                padding: 100px 0 137px;
             }
 
             @media (max-width: $md) {
@@ -238,12 +238,52 @@
     &--donate {
         padding: 37px 0 180px;
 
+        @media (max-width: $lg) {
+            padding: 40px 0 30px;
+        }
+
+        @media (max-width: $md) {
+            padding: 30px 20px 46px;
+        }
+
+        @media (max-width: $sm) {
+            padding: 30px 10px 21px;
+        }
+
         .section__title {
             margin-bottom: 22px;
+            padding-right: 15px;
+
+            @media (max-width: $lg) {
+                margin-bottom: 10px;
+            }
+
+            @media (max-width: $md) {
+                font-size: 48px;
+                padding-right: 0;
+                margin-bottom: 20px;
+            }
+
+            @media (max-width: $sm) {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
         }
 
         .section__inner {
             padding: 40px 92px 62px;
+
+            @media (max-width: $lg) {
+                padding: 20px 44px 46px 44px;
+            }
+
+            @media (max-width: $md) {
+                padding: 30px 0 31px;
+            }
+
+            @media (max-width: $sm) {
+                padding: 20px 0 19px;
+            }
         }
         .section__content {
             flex-direction: column;
@@ -251,6 +291,17 @@
         }
         .section__subtitle {
             margin-bottom: 0;
+
+            @media (max-width: $md) {
+                font-size: 24px;
+                text-align: center;
+            }
+
+            @media (max-width: $sm) {
+                font-size: 16px;
+                line-height: 1.4;
+                margin-bottom: 10px;
+            }
         }
     }
 
