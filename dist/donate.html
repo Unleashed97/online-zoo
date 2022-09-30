@@ -1,254 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"><link rel="stylesheet" href="css/style.min.css"><title>Donate</title></head><body><header class="header"><div class="container"><div class="header__inner"><a href="index.html" class="logo header__logo"><picture><source srcset="img/logo/logo-md.png" media="(max-width: 641px)"><img src="img/logo/logo.png" alt="Logotype PetStory online"></picture></a><nav class="nav nav--header"><ul class="nav__list"><li class="nav__item"><a href="index.html" class="nav__link">About</a></li><li class="nav__item"><a href="#" class="nav__link">Map</a></li><li class="nav__item"><a href="#" class="nav__link">Zoos</a></li><li class="nav__item active"><a href="donate.html" class="nav__link">Donate</a></li><li class="nav__item"><a href="#" class="nav__link">Contact us</a></li></ul></nav><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="header__designedby">Designed by ©</a> <button type="button" class="burger"><span class="burger__item"></span> <span class="burger__item"></span> <span class="burger__item"></span></button></div></div></header><main><div class="donate-banner"><h1 class="seotag">PetStory Online</h1></div><section class="section section--feed section--donate"><div class="container"><div class="donate__container"><div class="donate__text-block"><h3 class="donate__title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3><p class="donate__text">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or<br>postponed for additional months. <span>We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity. </span>But much more support is still needed, and we need your help! Please consider a gift today – no matter what<br>size – to help us sustain our mission.</p><h3 class="donate__title donate__title--orange">Donation Information</h3></div><div class="section__inner"><h2 class="section__title">Pick and feed a friend</h2><p class="section__subtitle">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p><div class="section__content"><div class="donate__amount-block"><div class="donate__amount-block-text"><span class="donate__amount-block-number">4</span> <span class="donate__amount-block-caption">Panda diet for the day.</span></div><picture><source srcset="img/donate/x-icon-sm.png" media="(max-width: 639px)"><img src="img/donate/x-icon.png" class="donate__amount-block-x" alt="multiplication sign"></picture><picture><source srcset="img/donate/panda-widget-sm.png" media="(max-width: 639px)"><img src="img/donate/panda-widget.png" class="donate__amount-block-image" alt="panda icon"></picture></div><form action="/" class="donate__form"><div class="progressbar donate__progressbar"><span class="progressbar__caption">Amount</span><div class="progressbar__body"><div class="progressbar__track"><span class="progressbar__dot progressbar__dot--1"></span> <span class="progressbar__dot progressbar__dot--2"></span> <span class="progressbar__dot progressbar__dot--3 active"></span> <span class="progressbar__dot progressbar__dot--4"></span> <span class="progressbar__dot progressbar__dot--5"></span> <span class="progressbar__dot progressbar__dot--6"></span> <span class="progressbar__dot progressbar__dot--7"></span> <span class="progressbar__dot progressbar__dot--8"></span></div></div></div><input type="number" class="donate__input" maxlength="4" min="1" max="9999" placeholder="Another amount"><div class="donate__radios"><label for="monthly" class="donate__label"><input type="radio" id="monthly" name="donate-type" class="donate__radio"> <span class="donate__check"></span> Monthly</label> <label for="once" class="donate__label"><input type="radio" id="once" name="donate-type" class="donate__radio" checked="checked"> <span class="donate__check"></span> Once</label></div><button type="submit" class="btn btn--fill donate__submit">Feed a friend now</button><p class="section__text donate__share">Share with your friends on social networks</p></form></div></div></div></div></section></main><footer class="footer footer--donate-page"><div class="container"><div class="footer__inner"><div class="footer__top"><a href="index.html" class="logo"><picture><source srcset="img/logo/logo-sm.png" media="(max-width: 639px)"><img src="img/logo/logo.png" alt="Logotype PetStory Online"></picture></a><div class="subscribe"><p class="subscribe__title section__subtitle">Subscribe to our news</p><div class="subscribe__controls"><input type="email" class="subscribe__input" placeholder="Enter your email"> <button type="submit" class="subscribe__btn mistake">Submit</button></div></div></div><a href="donate.html" class="btn btn--fill btn--round footer__btn">donate for volunteers</a><div class="footer__bottom"><div class="socials footer__socials"><ul class="socials__list"><li class="socials__item"><a href="http://facebook.com/" class="socials__link"><span class="socials__image"><img src="img/socials/facebook.svg" class="socials__icon" alt="facebook icon"> </span><span class="socials__name">Facebook</span></a></li><li class="socials__item"><a href="http://twitter.com/" class="socials__link"><span class="socials__image"><img src="img/socials/twitter.svg" class="socials__icon" alt="twitter icon"> </span><span class="socials__name">Twitter</span></a></li><li class="socials__item"><a href="#" class="socials__link"><span class="socials__image"><img src="img/socials/instagram.svg" class="socials__icon" alt="instagram icon"> </span><span class="socials__name">Instagram</span></a></li><li class="socials__item"><a href="#" class="socials__link"><span class="socials__image"><img src="img/socials/youtube.svg" class="socials__icon" alt="youtube icon"> </span><span class="socials__name">YouTube</span></a></li></ul></div><nav class="nav nav--footer footer__nav"><ul class="nav__list"><li class="nav__item"><a href="index.html" class="nav__link">About</a></li><li class="nav__item"><a href="#" class="nav__link">Map</a></li><li class="nav__item"><a href="#" class="nav__link">Zoos</a></li><li class="nav__item"><a href="#" class="nav__link">Contact us</a></li></ul></nav><div class="footer__copyright"><p>Designed by Alisa Samborskaya</p><p>©RSSchool & ©Yem Digital 2021</p></div></div></div></div></footer><script>function donatePriceDots() {
+            const priceDots = document.querySelectorAll('.progressbar__dot')
 
-<!-- head include -->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>Donate</title>
-</head>
+            function priceDotsRemoveActiveClass() {
+                priceDots.forEach(dot => dot.classList.remove('active'))
+            }
 
-<body>
+            window.addEventListener('resize', () => {
 
-    <!-- header include -->
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <a href="index.html" class="logo header__logo">
-                    <picture>
-                        <source srcset="img/logo/logo-md.png" media="(max-width: 641px)">
-                        <img src="img/logo/logo.png" alt="Logotype PetStory online">
-                    </picture>
-                </a>
+                if (window.innerWidth <= 1600 && window.innerWidth > 999) {
 
-                <nav class="nav nav--header">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="index.html" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Map</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Zoos</a>
-                        </li>
-                        <li class="nav__item active">
-                            <a href="donate.html" class="nav__link">Donate</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Contact us</a>
-                        </li>
-                    </ul>
-                </nav>
+                    console.log('<1600')
 
-                <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online"
-                    class="header__designedby">Designed by ©</a>
+                    console.log(priceDots[2])
+                    priceDotsRemoveActiveClass()
+                    priceDots[2].classList.add('active')
+                }
 
-                <button type="button" class="burger">
-                    <span class="burger__item"></span>
-                    <span class="burger__item"></span>
-                    <span class="burger__item"></span>
-                </button>
-            </div>
-        </div>
-    </header>
+                if (window.innerWidth > 0 && window.innerWidth < 999) {
 
-    <main>
-        <div class="donate-banner">
-            <h1 class="seotag">PetStory Online</h1>
-        </div>
+                    console.log('<640')
+                    priceDotsRemoveActiveClass()
+                    priceDots[5].classList.add('active')
+                }
 
-        <section class="section section--feed section--donate">
-            <div class="container">
-                <div class="donate__container">
-                    <div class="donate__text-block">
-                        <h3 class="donate__title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
-                        <p class="donate__text">Even though the Zoo has been able to reopen, we are at a greatly reduced
-                            capacity with educational programs and public and private events cancelled or <br />
-                            postponed for
-                            additional months. <span>We need you now more than ever to help ensure that we overcome
-                                these
-                                challenges. We have been actively raising funds in the community, and we are grateful
-                                for
-                                the generosity. </span> But much more support is still needed, and we need your
-                            help!
-                            Please
-                            consider a gift today – no matter what <br /> size – to help us sustain our mission.</p>
-
-                        <h3 class="donate__title donate__title--orange">Donation Information</h3>
-
-                    </div>
-                    <div class="section__inner">
-                        <h2 class="section__title">Pick and feed a friend</h2>
-                        <p class="section__subtitle">We know the animals bring you joy, and in these extraordinary
-                            times, we’re glad.</p>
-
-                        <div class="section__content">
-                            <div class="donate__amount-block">
-                                <div class="donate__amount-block-text">
-                                    <span class="donate__amount-block-number">4</span>
-                                    <span class="donate__amount-block-caption">Panda diet for the day.</span>
-                                </div>
-
-                                <picture>
-                                    <source srcset="img/donate/x-icon-sm.png" media="(max-width: 639px)">
-                                    <img src="img/donate/x-icon.png" class="donate__amount-block-x"
-                                        alt="multiplication sign">
-                                </picture>
-
-                                <picture>
-                                    <source srcset="img/donate/panda-widget-sm.png" media="(max-width: 639px)">
-                                    <img src="img/donate/panda-widget.png" class="donate__amount-block-image"
-                                        alt="panda icon">
-                                </picture>
-                            </div>
-
-                            <form action="/" class="donate__form">
-                                <div class="progressbar donate__progressbar">
-                                    <span class="progressbar__caption">Amount</span>
-                                    <div class="progressbar__body">
-                                        <div class="progressbar__track">
-                                            <span class="progressbar__dot progressbar__dot--1"></span>
-                                            <span class="progressbar__dot progressbar__dot--2"></span>
-                                            <span class="progressbar__dot progressbar__dot--3 active"></span>
-                                            <span class="progressbar__dot progressbar__dot--4"></span>
-                                            <span class="progressbar__dot progressbar__dot--5"></span>
-                                            <span class="progressbar__dot progressbar__dot--6"></span>
-                                            <span class="progressbar__dot progressbar__dot--7"></span>
-                                            <span class="progressbar__dot progressbar__dot--8"></span>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <input type="number" class="donate__input" maxlength="4" min="1" max="9999"
-                                    placeholder="Another amount">
-
-                                <div class="donate__radios">
-                                    <label for="monthly" class="donate__label">
-                                        <input type="radio" id="monthly" name="donate-type" class="donate__radio">
-                                        <span class="donate__check"></span>
-                                        Monthly
-                                    </label>
-                                    <label for="once" class="donate__label">
-                                        <input type="radio" id="once" name="donate-type" class="donate__radio" checked>
-                                        <span class="donate__check"></span>
-                                        Once
-                                    </label>
-                                </div>
-
-                                <button type="submit" class="btn btn--fill donate__submit">Feed a friend now</button>
-
-                                <p class="section__text donate__share">Share with your friends on social networks</p>
-
-                            </form>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- footer include -->
-    <footer class="footer footer--donate-page">
-        <div class="container">
-            <div class="footer__inner">
-                <div class="footer__top">
-                    <a href="index.html" class="logo">
-                        <picture>
-                            <source srcset="img/logo/logo-sm.png" media="(max-width: 639px)">
-                            <img src="img/logo/logo.png" alt="Logotype PetStory Online">
-                        </picture>
-                    </a>
-
-                    <div class="subscribe">
-                        <p class="subscribe__title section__subtitle">Subscribe to our news</p>
-                        <div class="subscribe__controls">
-                            <input type="email" class="subscribe__input" placeholder="Enter your email">
-                            <button type="submit" class="subscribe__btn mistake">Submit</button>
-                        </div>
-                    </div>
-                </div>
-
-                <a href="donate.html" class="btn btn--fill btn--round footer__btn">donate for volunteers</a>
-
-                <div class="footer__bottom">
-                    <div class="socials footer__socials">
-                        <ul class="socials__list">
-                            <li class="socials__item">
-                                <a href="http://facebook.com/" class="socials__link">
-                                    <span class="socials__image">
-                                        <img src="img/socials/facebook.svg" class="socials__icon" alt="facebook icon">
-                                    </span>
-                                    <span class="socials__name">
-                                        Facebook
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="http://twitter.com/" class="socials__link">
-                                    <span class="socials__image">
-                                        <img src="img/socials/twitter.svg" class="socials__icon" alt="twitter icon">
-                                    </span>
-                                    <span class="socials__name">
-                                        Twitter
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="#" class="socials__link">
-                                    <span class="socials__image">
-                                        <img src="img/socials/instagram.svg" class="socials__icon" alt="instagram icon">
-                                    </span>
-                                    <span class="socials__name">
-                                        Instagram
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="#" class="socials__link">
-                                    <span class="socials__image">
-                                        <img src="img/socials/youtube.svg" class="socials__icon" alt="youtube icon">
-                                    </span>
-                                    <span class="socials__name">
-                                        YouTube
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <nav class="nav nav--footer footer__nav">
-                        <ul class="nav__list">
-                            <li class="nav__item">
-                                <a href="index.html" class="nav__link">About</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">Map</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">Zoos</a>
-                            </li>
-                            <li class="nav__item">
-                                <a href="#" class="nav__link">Contact us</a>
-                            </li>
-                        </ul>
-                    </nav>
-
-                    <div class="footer__copyright">
-                        <p>Designed by Alisa Samborskaya</p>
-                        <p>©RSSchool & ©Yem Digital 2021</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-</body>
-
-</html>
+            })
+        }
+        donatePriceDots()</script></body></html>

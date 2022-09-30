@@ -5,6 +5,9 @@
     background-color: #111115;
 
     &--donate-page {
+        .footer__inner {
+            padding-top: 40px;
+        }
         @media (max-width: $lg) {
             .footer__inner {
                 padding: 40px 31px 50px 30px;
@@ -81,6 +84,10 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 36px;
+
+        @media (max-width: $lg) {
+            margin-bottom: 38px;
+        }
 
         @media (max-width: $md) {
             margin-bottom: 36px;
