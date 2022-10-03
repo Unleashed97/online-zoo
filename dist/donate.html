@@ -257,11 +257,21 @@
                 priceDots.forEach(dot => dot.classList.remove('active'))
             }
 
+            if (window.innerWidth <= 1600 && window.innerWidth > 999) {
+
+                priceDotsRemoveActiveClass()
+                priceDots[2].classList.add('active')
+            }
+
+            if (window.innerWidth > 0 && window.innerWidth < 999) {
+                priceDotsRemoveActiveClass()
+                priceDots[5].classList.add('active')
+            }
+
             window.addEventListener('resize', () => {
 
                 if (window.innerWidth <= 1600 && window.innerWidth > 999) {
 
-                    console.log(priceDots[2])
                     priceDotsRemoveActiveClass()
                     priceDots[2].classList.add('active')
                 }
