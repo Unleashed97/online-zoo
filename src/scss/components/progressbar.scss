@@ -21,6 +21,10 @@
         margin-left: 5px;
         margin-bottom: 17px;
 
+        @media (max-width: $lg) {
+            margin-left: 0;
+        }
+
         @media (max-width: $md) {
             margin-left: 10px;
             margin-bottom: 7px;

@@ -94,7 +94,8 @@
         }
 
         @media (max-width: $sm) {
-            margin-bottom: 25px;
+            line-height: 1.38;
+            margin-bottom: 29px;
         }
     }
 
@@ -106,6 +107,10 @@
         margin-top: 58px;
         margin-bottom: 52px;
         margin-left: -10px;
+
+        @media (max-width: $lg) {
+            margin-left: -19px;
+        }
 
         @media (max-width: $md) {
             margin-top: 50px;

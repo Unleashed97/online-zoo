@@ -63,12 +63,12 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        padding: 41px 0 50px;
+        padding: 39px 0 50px;
 
         color: #fff;
 
         @media (max-width: $lg) {
-            padding: 41px 18px 50px 43px;
+            padding: 41px 31px 50px 30px;
         }
 
         @media (max-width: $md) {
@@ -86,11 +86,11 @@
         margin-bottom: 36px;
 
         @media (max-width: $lg) {
-            margin-bottom: 38px;
+            margin-bottom: 36px;
         }
 
         @media (max-width: $md) {
-            margin-bottom: 36px;
+            margin-bottom: 33px;
         }
 
         @media (max-width: $sm) {
@@ -127,6 +127,9 @@
 
     &__socials {
         margin-top: 44px;
+        @media (max-width: $lg) {
+            margin-top: 46px;
+        }
 
         @media (max-width: $md) {
             position: absolute;
