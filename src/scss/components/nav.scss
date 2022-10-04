@@ -23,6 +23,19 @@
         }
     }
 
+    &--modal {
+        display: flex;
+        .nav__list {
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .nav__item {
+            font-weight: 400;
+            color: #333b41;
+        }
+    }
+
     &__list {
         display: flex;
         gap: 0 58px;

@@ -45,6 +45,10 @@ img {
     display: block;
 }
 
+.fixed {
+    position: fixed;
+}
+
 // components
 @import 'components/header.scss';
 @import 'components/footer.scss';
@@ -64,3 +68,4 @@ img {
 @import 'components/donate.scss';
 @import 'components/progressbar.scss';
 @import 'components/burger.scss';
+@import 'components/modal.scss';
