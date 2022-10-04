@@ -87,3 +87,48 @@ export const handleModal = () => {
         }
     })
 }
+
+export const handlePriceDotsClick = () => {
+    const dots = document.querySelectorAll('.progressbar__dot')
+    const input = document.querySelector('.donate__input')
+
+    if (dots) {
+        const clearDots = () => {
+            dots.forEach((dot) => dot.classList.remove('active'))
+        }
+        dots.forEach((dot) =>
+            dot.addEventListener('click', () => {
+                clearDots()
+                dot.classList.add('active')
+                const pseudo = window.getComputedStyle(dot, ':after').content
+
+                let pseudoValue = pseudo.split('')
+
+                pseudoValue.splice(0, 2)
+                pseudoValue.splice(-1, 1)
+                pseudoValue = pseudoValue.join('')
+
+                input.value = pseudoValue
+            }),
+        )
+
+        input.addEventListener('input', () => {
+            console.log('changed')
+            dots.forEach((dot) => {
+                const pseudo = window.getComputedStyle(dot, ':after').content
+
+                let pseudoValue = pseudo.split('')
+
+                pseudoValue.splice(0, 2)
+                pseudoValue.splice(-1, 1)
+                pseudoValue = Number(pseudoValue.join(''))
+
+                if (input.value == pseudoValue) {
+                    console.log(pseudoValue)
+                    clearDots()
+                    dot.classList.add('active')
+                }
+            })
+        })
+    }
+}
